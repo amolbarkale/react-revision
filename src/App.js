@@ -10,6 +10,8 @@ import { Memoization } from "./Compenents/Memoization";
 import UseRedu from "./Compenents/UseRedu";
 import { TicTacToe } from "./Compenents/TicTacToe";
 import { Chess } from "./Compenents/Chess";
+import { RecursiveDropdown } from "./Compenents/FolderStructure.jsx/RecursiveDropdown";
+import { explorer } from "./Compenents/FolderStructure.jsx/Explorer";
 
 function checkAuth() {}
 
@@ -42,8 +44,9 @@ function App() {
       <UseRef />
       <UseRedu />
       <Memoization /> 
-      <TicTacToe />*/}
-      <Chess />
+      <TicTacToe />
+      <Chess />*/}
+      <RecursiveDropdown explorer={explorer} />
     </>
   );
 }
